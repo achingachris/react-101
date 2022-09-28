@@ -19,13 +19,6 @@ const Navbar = ()=> {
                 <NavLink to= '/signin' className="nav-link">Sign In</NavLink>
             </li>
             <li className="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><NavLink className="dropdown-item" to=''>SignIn</NavLink></li>
-            <li><NavLink className="dropdown-item" href="#">Projects</NavLink></li>
-          </ul>
         </li>
             </ul>
         </div>
