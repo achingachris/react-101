@@ -20,7 +20,7 @@ function SignIn() {
     }
   return (
     <div class="wrapper">
-        <div class="logo">
+        <div class="nlogo">
             <img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png" alt=""/>
         </div>
         <div class="text-center mt-4 name">
@@ -39,9 +39,6 @@ function SignIn() {
             </div>
             <button class="btn mt-3" onClick={(e) => {e.preventDefault(); handleLogin()}}>Login</button>
         </form>
-        <div class="text-center fs-6">
-            <a href="#">Forget password?</a> or <a href="#">Sign up</a>
-        </div>
     </div>
   )
 }

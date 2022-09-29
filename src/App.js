@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Landing from './components/landing-page/Landing';
 import Navbar from './components/navbar/Navbar';
@@ -18,6 +17,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes> 
+        <Route path='*' element='Page does not exist'/>
         <Route path='/' element= {<Landing />} />
         <Route path='/projects' element= {<Projects />} >
           <Route path='f-projects' element = {<FreelanceProjects />}/>
